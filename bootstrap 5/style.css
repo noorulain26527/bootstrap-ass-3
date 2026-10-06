@@ -1,0 +1,1231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* HERO */
+
+.hero {
+    background: #f0edfa;
+    min-height: 465px;
+    border-bottom-right-radius: 120px;
+    overflow: hidden;
+}
+
+/* HERO SECTION*/
+
+@media (max-width: 991px) {
+
+    .hero {
+        border-bottom-right-radius: 60px;
+    }
+
+    .hero-content {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .description {
+        margin: auto;
+    }
+
+    .hero-img {
+        height: 300px;
+        margin-top: 20px;
+    }
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+    padding-top: 15px;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: 500;
+    color: #111;
+}
+
+.nav-link {
+    color: #5f5b70 !important;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    min-height: 395px;
+}
+
+.small-heading {
+    color: #6F42C1;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.hero h1 {
+    color: #6F42C1;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.description {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 530px;
+}
+
+.prevent-btn {
+    background: #6F42C1;
+    color: white;
+    border-radius: 30px;
+    padding: 9px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.prevent-btn:hover {
+    background: #6F42C1;
+    color: white;
+}
+
+
+/* HERO IMAGE */
+
+.hero-img {
+    width: 100%;
+    max-width: 570px;
+    height: 350px;
+    object-fit: contain;
+}
+
+
+/* STATISTICS */
+
+.statistics {
+    text-align: center;
+    padding: 50px 0;
+    background: white;
+}
+
+.statistics h2 {
+    color: #6F42C1;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.statistics > .container > p {
+    color: #667085;
+    font-size: 15px;
+}
+
+
+/* CARDS */
+
+.stat-card {
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.stat-card img {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.stat-card h3 {
+    color: black;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.stat-card h4 {
+    color: rgb(108, 117, 125);
+     font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* WHAT IS CORONAVIRUS */
+
+.corona-section {
+    margin-top: 75px;
+    padding-bottom: 80px;
+}
+
+.corona-img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+
+.corona-content {
+    padding-left: 0;
+}
+
+.corona-content h2 {
+    color: #673bc5;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.corona-content p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.corona-content ul {
+    color: #667085;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+.corona-content li {
+    margin-bottom: 5px;
+}
+
+.corona-content li span {
+    color: #19b638;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.learn-btn {
+    background-color: #673bc5;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 13px;
+    font-size: 14px;
+}
+
+.learn-btn:hover {
+    background-color: #5129a8;
+    color: white;
+}
+/* TABLET */
+@media (max-width: 991px) {
+
+    .corona-section {
+        margin-top: 60px;
+    }
+
+    .corona-img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .corona-content {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+
+    .corona-content h2 {
+        font-size: 36px;
+    }
+}
+/* MOBILE */
+@media (max-width: 767px) {
+
+    .corona-section {
+        margin-top: 40px;
+        padding: 0 15px 60px;
+    }
+
+    .corona-img {
+        height: 280px;
+    }
+
+    .corona-content {
+        margin-top: 30px;
+    }
+
+    .corona-content h2 {
+        font-size: 30px;
+    }
+
+    .corona-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   WHY IS IT DANGEROUS
+========================= */
+
+.danger-section {
+    padding-top: 85px;
+    padding-bottom: 55px;
+    overflow: hidden;
+}
+
+.danger-content {
+    padding-left: 12px;
+    padding-right: 35px;
+}
+
+.danger-content h2 {
+    color: #673bc5;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.danger-content > p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.65;
+    max-width: 620px;
+    margin-bottom: 18px;
+}
+
+
+/* GREEN TICK LIST */
+
+.danger-list {
+    color: #667085;
+    font-size: 15px;
+    margin-bottom: 23px;
+}
+
+.danger-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.danger-list img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+/* BUTTON */
+
+.learn-btn {
+    background-color: #673bc5;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 14px;
+    font-size: 13px;
+}
+
+.learn-btn:hover {
+    background-color: #5128a8;
+    color: white;
+}
+
+
+/* RIGHT IMAGE */
+
+.danger-img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    margin-left: -30px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .danger-section {
+        padding-top: 60px;
+    }
+
+    .danger-content {
+        margin-bottom: 45px;
+    }
+
+    .danger-img {
+        height: 350px;
+    }
+
+    .features-row {
+        margin-top: 50px;
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+}
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .danger-section {
+        padding: 45px 15px;
+    }
+
+    .danger-content {
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .danger-content h2 {
+        font-size: 30px;
+    }
+
+    .danger-content > p {
+        font-size: 14px;
+    }
+
+    .danger-img {
+        height: 280px;
+    }
+
+    .features-row {
+        margin-top: 40px;
+    }
+
+    .feature {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+
+
+/* =========================
+   FEATURES
+========================= */
+
+.features-row {
+    margin-top: 48px;
+    align-items: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 20px;
+}
+
+.feature > img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.feature h5 {
+    color: #673bc5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0 0 2px 0;
+}
+
+.feature p {
+    color: #667085;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* =========================
+   PREVENTION SECTION
+========================= */
+
+.prevent-section {
+    background-color: #f8f5ff;
+    padding: 75px 30px;
+}
+
+
+/* LEFT CARDS */
+
+.prevent-cards {
+    row-gap: 48px;
+}
+
+.prevent-cards .col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.prevent-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 240px;
+    margin: 0 auto;
+}
+
+
+/* PURPLE IMAGE AREA */
+
+.card-icon {
+    height: 136px;
+    background-color: #e5dcf5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon img {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* CARD TEXT */
+
+.prevent-card .card-body {
+    padding: 30px 16px 35px;
+    min-height: 184px;
+}
+
+.prevent-card h5 {
+    color: #111;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.prevent-card p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* RIGHT CONTENT */
+
+.prevent-content {
+    padding-left: 0;
+}
+
+.prevent-content h2 {
+    color: #673bc5;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.prevent-content > p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.65;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+
+/* GREEN TICKS */
+
+.prevent-list {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.prevent-list li {
+    display: flex;
+    align-items: center;
+    color: #667085;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.prevent-list img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+/* BUTTON */
+
+.prevent-btn {
+    background-color: #673bc5;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 13px;
+    font-size: 13px;
+}
+
+.prevent-btn:hover {
+    background-color: #5129a8;
+    color: white;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .prevent-section {
+        padding: 60px 20px;
+    }
+
+    .prevent-content {
+        margin-top: 60px;
+        padding-left: 15px;
+    }
+
+    .prevent-content h2 {
+        font-size: 32px;
+    }
+
+    .prevent-card {
+        width: 100%;
+        max-width: 240px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .prevent-section {
+        padding: 45px 15px;
+    }
+
+    .prevent-cards {
+        row-gap: 30px;
+    }
+
+    .prevent-card {
+        max-width: 280px;
+    }
+
+    .prevent-content {
+        margin-top: 45px;
+    }
+
+    .prevent-content h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .prevent-content > p {
+        font-size: 14px;
+    }
+}
+/* =========================
+   HOW TO PROTECT YOURSELF
+========================= */
+
+.protect-section {
+    padding: 70px 0 80px;
+    background-color: #ffffff;
+}
+
+
+/* HEADING */
+
+.protect-heading h2 {
+    color: #6F42C1;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.protect-heading p {
+    color: #667085;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* CONTENT */
+
+.protect-content {
+    margin-top: 105px;
+}
+
+
+/* LIST HEADINGS */
+
+.protect-content h4 {
+    color: #111;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+
+/* LIST */
+
+.protect-list li {
+    display: flex;
+    align-items: center;
+
+    color: #667085;
+    font-size: 18px;
+
+    margin-bottom: 27px;
+}
+
+.protect-list li img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+
+/* RIGHT IMAGE */
+
+.protect-img {
+    width: 100%;
+    max-width: 520px;
+    height: 440px;
+    object-fit: contain;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .protect-section {
+        padding: 60px 20px;
+    }
+
+    .protect-content {
+        margin-top: 70px;
+    }
+
+    .protect-img {
+        margin-top: 40px;
+        max-width: 500px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .protect-section {
+        padding: 45px 15px 60px;
+    }
+
+    .protect-heading h2 {
+        font-size: 30px;
+    }
+
+    .protect-heading p {
+        font-size: 14px;
+    }
+
+    .protect-content {
+        margin-top: 50px;
+    }
+
+    .protect-content h4 {
+        font-size: 21px;
+    }
+
+    .protect-list li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .protect-img {
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
+/* =========================
+   SYMPTOMS SECTION
+========================= */
+
+.symptoms-section {
+    background-color: #f8f5ff;
+    padding: 0 0 80px;
+}
+
+
+/* HEADING */
+
+.symptoms-heading {
+    padding-top: 50px;
+}
+
+.symptoms-heading h2 {
+    color: #673bc5;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.symptoms-heading p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* CARDS AREA */
+
+.symptoms-row {
+    margin-top: 65px;
+    row-gap: 95px;
+}
+
+
+/* CARD */
+
+.symptom-card {
+    background-color: white;
+
+    width: 450px;
+    min-height: 183px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    padding: 20px 25px;
+}
+
+
+/* IMAGE */
+
+.symptom-img {
+    width: 155px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.symptom-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+/* TEXT */
+
+.symptom-text {
+    padding-left: 15px;
+}
+
+.symptom-text h4 {
+    color: #673bc5;
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 8px;
+}
+
+.symptom-text p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .symptoms-heading h2 {
+        font-size: 34px;
+    }
+
+    .symptom-card {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .symptoms-row {
+        row-gap: 40px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 575px) {
+
+    .symptoms-section {
+        padding: 40px 15px 60px;
+    }
+
+    .symptoms-heading h2 {
+        font-size: 29px;
+    }
+
+    .symptoms-heading p {
+        font-size: 14px;
+    }
+
+    .symptoms-row {
+        margin-top: 40px;
+        row-gap: 25px;
+    }
+
+    .symptom-card {
+        min-height: 160px;
+        padding: 15px;
+    }
+
+    .symptom-img {
+        width: 95px;
+    }
+
+    .symptom-img img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .symptom-text {
+        padding-left: 5px;
+    }
+
+    .symptom-text h4 {
+        font-size: 18px;
+    }
+
+    .symptom-text p {
+        font-size: 13px;
+    }
+}
+/* =========================
+   HELP LINE
+========================= */
+
+.help-section {
+    background-color: #f8f5ff;
+    padding: 45px 0;
+    padding-left: 20px;
+}
+
+.help-text {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 10px;
+}
+
+.help-text span {
+    color: #673bc5;
+}
+
+.help-btn {
+    background-color: #673bc5;
+    color: white;
+    border-radius: 25px;
+    
+    padding: 10px 18px;
+    font-size: 18px;
+}
+
+.help-btn:hover {
+    background-color: #5129a8;
+    color: white;
+}
+
+
+/* TABLET */
+
+@media (max-width: 991px) {
+
+    .help-section {
+        padding: 40px 20px;
+    }
+
+    .help-btn {
+        margin-top: 15px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+
+    .help-section {
+        padding: 35px 15px;
+    }
+
+    .help-text {
+        font-size: 14px;
+    }
+
+    .help-btn {
+        margin-top: 15px;
+    }
+}
+/* =========================
+   NEWS AND ARTICLES
+========================= */
+
+.news-section {
+    background-color: #ffffff;
+    padding: 50px 12px 80px;
+}
+
+.news-heading h2 {
+    color: #673bc5;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.news-heading p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* CARDS */
+
+.news-row {
+    margin-top: 48px;
+}
+
+.news-card {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* IMAGE */
+
+.news-img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+
+/* INFO */
+
+.news-info {
+    padding-top: 48px;
+}
+
+
+/* DATE */
+
+.news-meta {
+    margin-bottom: 18px;
+}
+
+.date {
+    display: inline-block;
+    background-color: #673bc5;
+    color: white;
+
+    padding: 10px 13px;
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+.admin-comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    color: #667085;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.admin-comments span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.admin-comments img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+
+
+/* TITLE */
+
+.news-info h4 {
+    color: #673bc5;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+
+    .news-img {
+        height: 270px;
+    }
+
+    .news-info {
+        padding-top: 35px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .news-section {
+        padding: 40px 15px 60px;
+    }
+
+    .news-heading h2 {
+        font-size: 30px;
+    }
+
+    .news-heading p {
+        font-size: 14px;
+    }
+
+    .news-row {
+        margin-top: 35px;
+    }
+
+    .news-img {
+        height: 250px;
+    }
+
+    .admin-comments {
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .news-info h4 {
+        font-size: 18px;
+    }
+}
+/* Footer */
+.footer-section {
+    background-color: #f8f5ff;
+    padding: 48px 0 50px;
+}
+
+.footer-section h3 {
+    color: #171717;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.footer-section h4 {
+    color: #171717;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #673bc5;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 2px;
+}
+
+.footer-links a:hover {
+    color: #4f25a8;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #667085;
+}
+
+
